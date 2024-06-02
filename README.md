@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# workforce user authentication and hosting using Firebase
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
