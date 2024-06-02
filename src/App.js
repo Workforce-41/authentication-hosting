@@ -28,9 +28,12 @@ function App() {
   ];
   let routesElement = useRoutes(routesArray);
   return (
-    <AuthProvider>
+    <AuthProvider> 
+      
+      <div className="flex flex-col h-screen">
       <Header />
-      <div className="w-full h-screen flex flex-col">{routesElement}</div>
+      <div className="flex-grow mt-16">{routesElement}</div>
+      </div>
     </AuthProvider>
   );
 }
